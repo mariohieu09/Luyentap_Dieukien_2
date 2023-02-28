@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let tn = parseInt(prompt("Nhập thuế thu nhập cá nhân: " + ''));
+  if(tn<5000000){
+    thue = tn * 5/100;
+    alert("Thuế cá nhân của bạn là: " + thue +" đồng");
+  }if(5000000 < tn && tn <= 10000000){
+    thue = tn * 10/100 - 250000;
+    alert("Thuế cá nhân của bạn là: " + thue +" đồng");
+  }if(10000000 < tn && tn <= 18000000){
+    thue = tn * 15/100 - 750000;
+    alert("Thuế cá nhân của bạn là: " + thue +" đồng");
+  }
+  if(10000000 < tn && tn <= 18000000){
+    thue = tn * 15/100 - 750000;
+    alert("Thuế cá nhân của bạn là: " + thue +" đồng");
+  }
+  if(18000000 < tn && tn <= 32000000){
+    thue = tn * 20/100 - 1650000;
+    alert("Thuế cá nhân của bạn là: " + thue +" đồng");
+  }
+  if(32000000 < tn && tn <= 52000000){
+    thue = tn * 25/100 - 3250000;
+    alert("Thuế cá nhân của bạn là: " + thue +" đồng");
+  }
+  if(52000000 < tn && tn <= 80000000){
+    thue = tn * 30/100 - 5850000;
+    alert("Thuế cá nhân của bạn là: " + thue +" đồng");
+  }if(80000000 < tn){
+    thue = tn * 35/100 - 9850000;
+    alert("Thuế cá nhân của bạn là: " + thue +" đồng");
+  }
+</script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let kWh = parseInt(prompt("Nhập số kWh: "+ ''));
+  bac1 = kWh * 1678;
+  bac2 = kWh * 1734;
+  bac3 = kWh * 2014;
+  bac4 = kWh * 2536;
+  bac5 = kWh * 2834;
+  if(kWh < 50){
+    alert("Số tiền bạn phải đóng là: " + bac1 + "đồng");
+  }if(51 < kWh && kWh <= 100){
+    alert("Số tiền bạn phải đóng là: " + bac2 + "đồng");
+  }if(101 < kWh && kWh <= 200){
+    alert("Số tiền bạn phải đóng là: " + bac3 + "đồng");
+  }if(201 < kWh && kWh <= 300){
+    alert("Số tiền bạn phải đóng là: " + bac4 + "đồng");
+  }if(301 < kWh && kWh < 400){
+    alert("Số tiền bạn phải đóng là: " + bac5 + "đồng");
+  }
+</script>
+</body>
+</html>
